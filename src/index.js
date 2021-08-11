@@ -1,13 +1,26 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
 import './index.css';
 import App from './App';
+import storeConfig from './storeConfig';
+import { Provider } from 'react-redux';
 import reportWebVitals from './reportWebVitals';
+import { 
+  MuiThemeProvider,
+  responsiveFontSizes
+ } from '@material-ui/core';
+ import { createTheme } from '@material-ui/core/styles';
+
+const store = storeConfig({});
+let theme = createTheme();
+theme = responsiveFontSizes(theme);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Provider store={store}>
+    <MuiThemeProvider theme={theme}>
+      <App />
+    </MuiThemeProvider>
+  </Provider>,
   document.getElementById('root')
 );
 

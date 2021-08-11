@@ -1,0 +1,11 @@
+
+{
+    "data": [
+        {"id": "1000","code": "f230fh0g3","name": "Pizza 1","description": "Product Description","image": "pizza-img.jpg","price": 65, "toppings": ["Cheeze", "Tomato", "Corn", "Chicken", "Pepper", "Chilli Flakes"], "sizes":["Small", "Regular", "Large"]},
+        {"id": "1001","code": "nvklal433","name": "Pizza 2","description": "Product Description","image": "pizza-img.jpg","price": 72, "toppings": ["Cheeze", "Chicken", "Pepper", "Chilli Flakes"], "sizes":["Small", "Regular", "Large"]},
+        {"id": "1002","code": "zz21cz3c1","name": "Pizza 3","description": "Product Description","image": "pizza-img.jpg","price": 79, "toppings": ["Cheeze", "Tomato", "Corn", "Pepper", "Chilli Flakes"], "sizes":["Small", "Regular", "Large"]},
+        {"id": "1003","code": "244wgerg2","name": "Pizza 4","description": "Product Description","image": "pizza-img.jpg","price": 29, "toppings": ["Cheeze", "Tomato", "Corn", "Chicken", "Pepper", "Chilli Flakes"], "sizes":["Small", "Regular", "Large"]},
+        {"id": "1004","code": "h456wer53","name": "Pizza 5","description": "Product Description","image": "pizza-img.jpg","price": 15, "toppings": ["Cheeze", "Pepper", "Chilli Flakes"], "sizes":["Small", "Regular", "Large"]}
+    ]
+}
+    
